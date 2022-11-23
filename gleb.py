@@ -5,3 +5,4 @@ bot = telebot.TeleBot(token)
 def start_message(message):
     bot.send_message(message.chat.id, 'Привет, ты написал мне /start')
 bot.polling()
+class
