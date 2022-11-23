@@ -1,5 +1,5 @@
                             =========================
-                          | http://t.me/ITCubeHackBot |
+                         || http://t.me/ITCubeHackBot ||
                             =========================
                                                    \
                                                     \
