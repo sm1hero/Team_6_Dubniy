@@ -12,7 +12,7 @@ def start_message(message):
     if message.chat.id == 1658431458:
         bot.send_message(message.chat.id, 'Здравствуйте! Напишите "добавить" чтобы начать')
     else:
-        bot.send_message(message.chat.id, 'Привет! Напиши мне день и я покажу тебе расписание!')
+        bot.send_message(message.chat.id, 'Привет! Напиши мне день, номер кабинета или фамилию и я покажу тебе расписание!')
 @bot.message_handler(content_types='text')
 def message_reg(message):
     if message.chat.id == 1658431458:
