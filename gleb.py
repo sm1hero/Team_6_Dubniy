@@ -59,5 +59,17 @@ def chating(message):
                                                       text='Введите номер кабинета: ')
 
 
+                                if message.text == 'День недели':
+                                    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+                                    item1 = types.KeyboardButton('Понедельник')
+                                    item2 = types.KeyboardButton('Вторник')
+                                    item3 = types.KeyboardButton('Среда')
+                                    item4 = types.KeyboardButton('Четверг')
+                                    item5 = types.KeyboardButton('Пятница')
+                                    item6 = types.KeyboardButton('Суббота')
+                                    item7 = types.KeyboardButton('Воскресенье')
+                                    markup.add(item1, item2, item3, item4, item5, item6, item7)
+                                    bot.send_message(message.chat.id, 'Выберите день недели', reply_markup=markup)
+
 
 bot.polling()
