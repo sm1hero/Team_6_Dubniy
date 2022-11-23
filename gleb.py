@@ -6,8 +6,9 @@ def start_message(message):
     bot.send_message(message.chat.id, 'Привет, ты написал мне /start')
 bot.polling()
 class Raspisanie():
-    def __init__(self, day, group, time, ):
+    def __init__(self, day, group, time):
         """Constructor"""
-        self.color = color
-        self.doors = doors
-        self.tires = tires
+        self.day = day
+        self.group = group
+        self.time = time
+
