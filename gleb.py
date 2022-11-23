@@ -58,7 +58,6 @@ def chating(message):
                                 bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.chat_id,
                                                       text='Введите номер кабинета: ')
 
-
                                 if message.text == 'День недели':
                                     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
                                     item1 = types.KeyboardButton('Понедельник')
