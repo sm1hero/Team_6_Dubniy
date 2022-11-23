@@ -32,7 +32,7 @@ def message_reg(message):
                 a = ""
                 for i in range(0, len(lessons)):
                     a += lessons[i] + ", "
-                bot.send_message(message.chat.id, "Занятия: " + a)
+                bot.send_message(message.chat.id, "Занятия: " + a) 
 
 @bot.message_handler(content_types='text')
 def message_admin(message):
