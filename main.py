@@ -5,7 +5,7 @@ from telebot import types
 raspisanie = {}
 course = ""
 
-bot = telebot.TeleBot(5980407272:AAG5q_k07BI4G_hP8jX4KtkQUS30DVNee4g)
+bot = telebot.TeleBot("5980407272:AAG5q_k07BI4G_hP8jX4KtkQUS30DVNee4g")
 @bot.message_handler(commands=['start'])
 def start_message(message):
     # определяем админа по id
